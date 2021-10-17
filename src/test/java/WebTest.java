@@ -19,6 +19,8 @@ public class WebTest {
 
 
 
+
+
         String actualResult=driver.getCurrentUrl();
         Assert.assertEquals(actualResult,expectedResult);
 
